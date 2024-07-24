@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/equippp/static/css/main.a54acf5b.css",
-    "main.js": "/equippp/static/js/main.e4695cf2.js",
+    "main.css": "/equippp/static/css/main.41ddce5f.css",
+    "main.js": "/equippp/static/js/main.9fa340e4.js",
     "static/js/163.3c7df00e.chunk.js": "/equippp/static/js/163.3c7df00e.chunk.js",
     "static/media/image 1.svg": "/equippp/static/media/image 1.a82fd4a715872283a9115059ff210e60.svg",
     "static/media/frame.svg": "/equippp/static/media/frame.83ab9abaf1b9a09f9806d4ba08d2e98c.svg",
@@ -29,12 +29,12 @@
     "static/media/icons8-flag-60 1.svg": "/equippp/static/media/icons8-flag-60 1.668b31e38ad4f8c1216b4787a2a537e7.svg",
     "static/media/Electronics.svg": "/equippp/static/media/Electronics.f5b22f92f0574fb80835fb8c08306997.svg",
     "index.html": "/equippp/index.html",
-    "main.a54acf5b.css.map": "/equippp/static/css/main.a54acf5b.css.map",
-    "main.e4695cf2.js.map": "/equippp/static/js/main.e4695cf2.js.map",
+    "main.41ddce5f.css.map": "/equippp/static/css/main.41ddce5f.css.map",
+    "main.9fa340e4.js.map": "/equippp/static/js/main.9fa340e4.js.map",
     "163.3c7df00e.chunk.js.map": "/equippp/static/js/163.3c7df00e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a54acf5b.css",
-    "static/js/main.e4695cf2.js"
+    "static/css/main.41ddce5f.css",
+    "static/js/main.9fa340e4.js"
   ]
 }
