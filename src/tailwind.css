@@ -645,8 +645,8 @@ video {
   margin-bottom: 3rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mb-14 {
+  margin-bottom: 3.5rem;
 }
 
 .mb-20 {
@@ -677,10 +677,6 @@ video {
   margin-right: 1.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -693,12 +689,12 @@ video {
   margin-top: 1rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-\[-180px\] {
   margin-top: -180px;
+}
+
+.mt-\[-44px\] {
+  margin-top: -44px;
 }
 
 .mt-\[-50px\] {
@@ -745,16 +741,16 @@ video {
   height: 1.5rem;
 }
 
-.h-\[100px\] {
-  height: 100px;
-}
-
 .h-\[45px\] {
   height: 45px;
 }
 
 .h-\[600px\] {
   height: 600px;
+}
+
+.h-\[93px\] {
+  height: 93px;
 }
 
 .h-auto {
@@ -785,12 +781,12 @@ video {
   width: 1.5rem;
 }
 
-.w-\[100px\] {
-  width: 100px;
-}
-
 .w-\[121px\] {
   width: 121px;
+}
+
+.w-\[91px\] {
+  width: 91px;
 }
 
 .w-full {
@@ -903,6 +899,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .space-y-8 > :not([hidden]) ~ :not([hidden]) {
