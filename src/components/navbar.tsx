@@ -14,10 +14,10 @@ const Navbar: React.FC = () => {
         < Logo className="h-16 w-16" />
       </div>
       <div className="flex items-center flex-1">
-        <div className="hidden md:flex md:justify-center md:flex-1 space-x-6">
-          <button className="bg-transparent border-none text-base font-semibold py-2 px-5">Home</button>
-          <button className="bg-transparent border-none text-base font-semibold py-2 px-5">About</button>
-          <button className="bg-transparent border-none text-base font-semibold py-2 px-5">FAQ</button>
+        <div className="hidden md:flex md:justify-center md:flex-1 space-x-6 mt-4 ">
+          <button className="bg-transparent border-none text-base font-semibold py-2 px-8">Home</button>
+          <button className="bg-transparent border-none text-base font-semibold py-2 px-8">About</button>
+          <button className="bg-transparent border-none text-base font-semibold py-2 px-8">FAQ</button>
         </div>
         <button 
           className="absolute right-4 md:hidden text-2xl bg-transparent border-none cursor-pointer z-10"
@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
         </button>
         {isOpen && (
           <div className="md:hidden absolute top-24 right-0 w-full bg-white shadow-md py-4">
-            <div className="flex flex-col items-center space-y-2">
+            <div className="flex flex-col items-center space-y-2 mt-2">
               <button className="bg-transparent border-none text-base font-semibold py-2 px-5">Home</button>
               <button className="bg-transparent border-none text-base font-semibold py-2 px-5">About</button>
               <button className="bg-transparent border-none text-base font-semibold py-2 px-5">FAQ</button>

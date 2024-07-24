@@ -1,15 +1,12 @@
 import React from 'react';
-import { ReactComponent as InstagramIcon } from '../assets/icons/instagram.svg';
-import { ReactComponent as FacebookIcon } from '../assets/icons/facebook.svg';
-import { ReactComponent as TwitterIcon } from '../assets/icons/twitter.svg';
 import { ReactComponent as EquipppLogo } from '../assets/images/logo.svg';
 
 const Contact: React.FC = () => {
   return (
-    <footer className="bg-white py-6 border-t border-gray-300 font-sans">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+    <footer className="bg-white font-sans">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between py-6 border-t border-gray-300">
         <div className="flex items-center mb-4 md:mb-0">
-          <EquipppLogo className="w-[100px] h-[100px] mt-10 mb-10 md:ml-10" />
+          <EquipppLogo className="w-[100px] h-[100px] mt-10 mb-10" />
         </div>
         <div className="flex flex-col md:flex-row items-center justify-end w-full">
           <div className="text-center mt-5px md:text-left mb-4 md:mb-0 md:ml-10 lg:mr-20">
@@ -32,7 +29,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl md:ml-10 mx-auto px-4 mt-8 mb-10 flex flex-col md:flex-row items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 mt-8 mb-10 flex flex-col md:flex-row items-center justify-between">
         <div className="text-md text-gray-500">
           Copyright © EQUIPPP Social Impact Technologies | Powered by <span className="font-bold text-gray-700">EQUIPPP</span>
         </div>
