@@ -60,8 +60,8 @@ const Projects: React.FC = () => {
           <div className="flex whitespace-nowrap animate-scroll space-x-4">
             {duplicatedSecondLineProjects.map((project, index) => (
               <div key={index} className="flex items-center mx-4">
-                <div className="flex-shrink-0">{project.icon}</div>
-                <span className="text-lg md:text-xl p-2 md:p-6 font-bold">{project.label}</span>
+                <div className="flex-shrink-0 mb-20">{project.icon}</div>
+                <span className="text-lg md:text-xl p-2 md:p-6 font-bold mb-20">{project.label}</span>
               </div>
             ))}
           </div>

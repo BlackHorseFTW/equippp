@@ -12,14 +12,14 @@ const About: React.FC = () => {
     <section className="py-8 md:py-16 px-4 md:px-8 lg:px-12 font-sans">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">ABOUT US</h2>
 
-      <p className="font-semibold text-md md:text-base text-center mb-12 max-w-4xl mx-auto px-4 leading-relaxed lg:lg:text-sm">
+      <p className="font-semibold text-md md:text-base text-center mb-12 max-w-4xl mx-auto px-4 leading-relaxed lg:text-sm">
         EquiPPP™ is a collaborative platform that vitalizes crowd participation in public-private projects and connects corporates, citizens, domain experts, NGOs, and philanthropists with the government to initiate and participate together in socially relevant projects.
       </p>
       <div className="flex flex-col md:flex-row gap-6 px-4 md:px-8 lg:px-40">
         <div className="md:w-1/2">
           <div className="grid grid-cols-1 gap-6">
-            <div className="bg-white rounded-lg p-6 flex items-start transition-shadow duration-300 hover:shadow-opacity-30 hover:shadow-md mr-[60px]">
-              <div className="w-14 h-14 bg-red-500 bg-opacity-20 rounded-full flex items-center justify-center mr-6">
+            <div className="bg-white rounded-lg p-6 flex items-start transition-shadow duration-300 hover:shadow-opacity-30 hover:shadow-md">
+              <div className="w-14 h-14  md:p-4 bg-red-500 bg-opacity-20 rounded-full flex items-center justify-center mr-6">
                 <LocateIcon className="w-6 h-6" />
               </div>
               <div className="max-w-[350px]">
@@ -29,8 +29,8 @@ const About: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg p-6 flex items-start transition-shadow duration-300 hover:shadow-opacity-30 hover:shadow-md mr-[60px]">
-              <div className="w-14 h-14 bg-green-500 bg-opacity-20 rounded-full flex items-center justify-center mr-6">
+            <div className="bg-white rounded-lg p-6 flex items-start transition-shadow duration-300 hover:shadow-opacity-30 hover:shadow-md">
+              <div className="w-14 h-14  md:p-4 bg-green-500 bg-opacity-20 rounded-full flex items-center justify-center mr-6">
                 <InitiateIcon className="w-6 h-6" />
               </div>
               <div className="max-w-[350px]">
@@ -40,8 +40,8 @@ const About: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg p-6 flex items-start transition-shadow duration-300 hover:shadow-opacity-30 hover:shadow-md mr-[60px]">
-              <div className="w-14 h-14 bg-blue-500 bg-opacity-20 rounded-full flex items-center justify-center mr-6">
+            <div className="bg-white rounded-lg p-6 flex items-start transition-shadow duration-300 hover:shadow-opacity-30 hover:shadow-md">
+              <div className="w-14 h-14  md:p-4 bg-blue-500 bg-opacity-20 rounded-full flex items-center justify-center mr-6">
                 <MotivateIcon className="w-6 h-6" />
               </div>
               <div className="max-w-[350px]">
@@ -51,8 +51,8 @@ const About: React.FC = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-white rounded-lg p-6 flex items-start transition-shadow duration-300 hover:shadow-opacity-10 hover:shadow-md mr-[60px]">
-              <div className="w-14 h-14 bg-purple-500 bg-opacity-20 rounded-full flex items-center justify-center mr-6">
+            <div className="bg-white rounded-lg p-6 flex items-start transition-shadow duration-300 hover:shadow-opacity-10 hover:shadow-md">
+              <div className="w-14 h-14 md:p-4 bg-purple-500 bg-opacity-20 rounded-full flex items-center justify-center mr-6">
                 <ParticipateIcon className="w-6 h-6" />
               </div>
               <div className="max-w-[350px]">
@@ -66,12 +66,12 @@ const About: React.FC = () => {
         </div>
         {/* Images */}
         <div className="md:w-1/2">
-          <div className="flex flex-col gap-6">
-            <img src={discuss} alt="Public and Private Projects" className="w-full h-auto rounded-lg object-cover" />
-            <div className="flex flex-col gap-6 md:flex-row">
-              <img src={bridge} alt="Infrastructure" className="w-full lg:w-[260px] h-auto rounded-lg object-cover" />
-              <img src={map} alt="Geographic Data" className="w-full lg:w-[260px] h-auto rounded-lg object-cover" />
-            </div>
+          <div className="grid gap-6">
+            <img src={discuss} alt="Public and Private Projects" className="w-full h-full rounded-lg object-cover" />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <img src={bridge} alt="Infrastructure" className="w-full h-full rounded-lg object-cover" />
+            <img src={map} alt="Geographic Data" className="w-full h-full rounded-lg object-cover" />
+            </div> 
           </div>
         </div>
       </div>
