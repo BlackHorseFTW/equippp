@@ -25,8 +25,8 @@ const Navbar: React.FC = () => {
         >
           ☰
         </button>
-        <button className="hidden md:block bg-white text-black mt-3 py-3 px-9 rounded-full text-base" style={{ border: '2px solid rgba(239, 239, 240)' }}>
-          Sign In
+        <button className="hidden font-semibold md:block bg-white text-black mt-3 py-3 px-9 rounded-full text-base" style={{ border: '2px solid rgba(239, 239, 240)' }}>
+          Login
         </button>
         {isOpen && (
           <div className="md:hidden absolute top-24 right-0 w-full bg-white shadow-md py-4">
@@ -34,8 +34,8 @@ const Navbar: React.FC = () => {
               <button className="bg-transparent border-none text-base font-semibold py-2 px-5">Home</button>
               <button className="bg-transparent border-none text-base font-semibold py-2 px-5">About</button>
               <button className="bg-transparent border-none text-base font-semibold py-2 px-5">FAQ</button>
-              <button className="bg-white text-black border border-gray border-opacity-15 py-2 px-5 rounded-full text-base mt-2 w-[121px] h-[45px] mx-auto">
-                Sign In
+              <button className="bg-white font-semibold text-black border border-gray border-opacity-15 py-2 px-5 rounded-full text-base mt-2 w-[121px] h-[45px] mx-auto">
+               Login 
               </button>
             </div>
           </div>
